@@ -1,0 +1,16 @@
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MTPProxy.exe.config
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MTPProxy.exe
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MTPProxy.pdb
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MetroFramework.Design.dll
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MetroFramework.dll
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MetroFramework.Fonts.dll
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\MTProtoProxy.dll
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\netstandard.dll
+D:\project\MTProxy\5\MTPProxy\MTPProxy\bin\Debug\System.Net.Sockets.dll
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.csprojResolveAssemblyReference.cache
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.csproj.MTPProxy.exe.config
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.FrmTemplate.resources
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.Properties.Resources.resources
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.csproj.GenerateResource.Cache
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.exe
+D:\project\MTProxy\5\MTPProxy\MTPProxy\obj\Debug\MTPProxy.pdb
