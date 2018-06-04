@@ -11,8 +11,8 @@ using System.Threading;
 using System.Windows.Forms;
 using System.IO;
 using System.Net.Sockets;
-using MTProtoProxy;
 using Ini;
+using MTProtoProxy;
 namespace MTPProxy
 {
     public partial class FrmTemplate : MetroForm
@@ -31,6 +31,7 @@ namespace MTPProxy
             this.save.StyleManager = metroStyleManager1;
             this.load.StyleManager = metroStyleManager1;
             this.metroButton1.StyleManager = metroStyleManager1;
+            this.metroButton2.StyleManager = metroStyleManager1;
             ToolTip1.AutoPopDelay = 3000;
             
             Console.SetOut(new MultiTextWriter(new ControlWriter(textbox), Console.Out));
@@ -47,6 +48,7 @@ namespace MTPProxy
             public MultiTextWriter(IEnumerable<TextWriter> writers)
             {
                 this.writers = writers.ToList();
+                
             }
             public MultiTextWriter(params TextWriter[] writers)
             {
@@ -158,12 +160,12 @@ namespace MTPProxy
                 }
                 
                 iip = ip.Text;
-               var mtp = new MTProtoProxyServer(ref sesret, ref pport, ref iip);
+                var mtp = new MTProtoProxyServer(ref sesret, ref pport, ref iip);
                 mtp.Start(ref back_log);
                // var mtprotoProxy = new MTProtoProxyServer("secret", port, "ip");
                // mtprotoProxy.Start(backlog);
                 Console.WriteLine("Created By Soheil1234");
-                Console.WriteLine("open source => https://github.com/Metal-Ghost/MTProxy");
+                Console.WriteLine("open source => https://github.com/Metal-Ghost/MTPProxy");
                 st.Enabled = false;
 
             }
@@ -259,6 +261,14 @@ namespace MTPProxy
             System.Diagnostics.Process.Start("https://t.me/soheil_12_34");
             System.Diagnostics.Process.Start("https://github.com/Metal-Ghost/MTPProxy");
             System.Diagnostics.Process.Start("https://t.me/VPN_And_Proxies");
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            string[] lines = { "@echo off", "MTProtoProxy.dll" };
+            System.IO.File.WriteAllLines(Application.StartupPath + @"\cmd.bat", lines);
+
+            System.Diagnostics.Process.Start(Application.StartupPath+@"\cmd.bat");
         }
     }
 }

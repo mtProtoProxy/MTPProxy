@@ -43,7 +43,8 @@
     <Reference Include="MetroFramework.Fonts">
       <HintPath>..\..\..\MTProxy\MTProxy\bin\Debug\MetroFramework.Fonts.dll</HintPath>
     </Reference>
-    <Reference Include="MTProtoProxy">
+    <Reference Include="MTProtoProxy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\MTProxy\MTProxy\bin\Debug\MTProtoProxy.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
